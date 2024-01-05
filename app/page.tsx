@@ -20,7 +20,7 @@ export default function Home() {
         
         <Box />
         <LeaderBoard  />
-      <Image src='/Group 1686555240.png' className='-z-20 absolute top-0 ' width={1920} height={600} alt='' />
+      <Image src='/1.png' className='-z-20 absolute top-0 ' width={1920} height={600} alt='' />
       </section> 
 
       
