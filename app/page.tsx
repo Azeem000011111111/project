@@ -15,12 +15,12 @@ export default function Home() {
   return (
     <div className=''>
       <Navbar />
-      <section className=' rounded-b-[100px] relative' >
+      <section className=' rounded-b-[100px] ' >
         <Hero />
         
         <Box />
         <LeaderBoard  />
-      <Image src='/1.png' className='-z-20 absolute top-0 ' width={1920} height={600} alt='' />
+      <Image src='/1.png' className='-z-20 'layout='fill' alt='' />
       </section> 
 
       
