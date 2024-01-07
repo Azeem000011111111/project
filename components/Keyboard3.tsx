@@ -41,9 +41,9 @@ const itemsArray = [
 const Keyboard3 = () => {
 
     return (
-        <div className=' max-w-[26.2rem] max-h-[15.5rem] '>
+        <div className=' max-w-[26.2rem] '>
 
-            <div className='flex flex-wrap gap-[1.08rem]'>
+            <div className='flex flex-wrap gap-[1.08rem] '>
                 {itemsArray.map((item, index) => (
                     <div
                         key={index}

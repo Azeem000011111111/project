@@ -3,7 +3,7 @@ import React from 'react'
 const Cube = () => {
   return (
     <div>
-        <div className="box-cube-1 translate-y-3 -mr-16 relative z-30">
+        <div className="box-cube-1 translate-y-3 -mr-16 relative">
                                 <div className="box-content text-center sm:max-w-[7.5rem] sm:mb-4">
                                     <div
                                         className="mx-auto relative w-16 h-16 flex items-center justify-center rounded-full bg-[#6495ED] border-4 border-white shadow shadow-gray-400">

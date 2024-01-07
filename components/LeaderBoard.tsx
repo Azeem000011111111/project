@@ -7,8 +7,8 @@ import List from './List'
 const LeaderBoard = () => {
   return (
     <div className="flex justify-center
-     bg-white  w-full h-[739px] ">
-       <div className='w-[948px] h-[739px] bg-white'>
+     bg-white  w-full  ">
+       <div className='max-w-w-[948px] bg-white'>
         <div className='flex justify-center flex-col text-center '>
         <h1 className='text-[#FF6347] text-[26px] font-normal font-[poppins] mb-2'>Leader board</h1>
         <h1 className='text-[#2F4F4F] font-bold text-[40px] leading-[51px]'>Our Top 10 Winners</h1>

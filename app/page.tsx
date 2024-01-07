@@ -29,7 +29,7 @@ export default function Home() {
           <Menu   />
           </section >
           <section className='flex flex-col justify-center items-center p-10 '>
-           <div className='flex flex-col gap-y-4 w-[63%]'>
+           <div className='flex flex-col gap-y-4 lg:w-[63%] xxl:w-[63%] md:w-[63%]'>
             <h1 className='text-[#1C1F35] text-[2.375rem] font-extrabold text-center'>Faqs</h1>
            
             <FAqs />

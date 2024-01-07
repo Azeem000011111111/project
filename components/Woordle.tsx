@@ -3,7 +3,7 @@ import React from 'react'
 const Woordle = () => {
   return (
     <section className='bg-[#FFEEDE] flex justify-center items-center  h-[382px] w-full'>
-    <div className='flex justify-center  w-[948px] h-[50%]'>
+    <div className='flex justify-center  w-[948px] '>
         <div className='text-center '>
             <h1 className='text-[#FF6347] text-[26px] pb-2'>Wordle Game</h1>
             <h1 className='text-[#2F4F4F] text-4xl pb-2 '>Guess the Hidden Word</h1>
