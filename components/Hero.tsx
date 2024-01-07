@@ -21,7 +21,7 @@ const Hero = () => {
                         </span>
                     </Link>
                 </span>
-                <span className='rounded-[90px] bg-blue-400 box-border text-[1rem] font-poppins p-4'>00:10:06:250</span>
+                <span className='rounded-[90px] bg-blue-400 box-border text-[1rem] text-white   px-8  py-2'>00:10:06:250</span>
                 <Keyboard />
                 <Keyboard2 />
             </div>

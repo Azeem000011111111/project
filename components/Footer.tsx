@@ -8,7 +8,7 @@ const Footer = () => {
                 <h1>©2023 Guess This Word. All Rights Reserved.</h1>
             </div>
             <div className='flex justify-evenly'>
-                <ul className='flex justify-center items-center text-center space-x-[0.62rem] '>
+                <ul className='flex justify-center items-center text-center space-x-[0.62rem] list-disc list-marker-blue '>
                     <li >Privacy Policy</li>
                     <li >New Game</li>
                     <li >About</li>
