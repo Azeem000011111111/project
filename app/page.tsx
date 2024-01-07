@@ -15,17 +15,17 @@ export default function Home() {
   return (
     <div className=''>
       <Navbar />
-      <section className=' rounded-b-[100px] ' >
+      <section className=' rounded-b-[100px] bg-[url("/1.png")] object-fill  ' >
         <Hero />
         
         <Box />
         <LeaderBoard  />
-      <Image src='/1.png' className='-z-20 'layout='fill' alt='' />
+      {/* <Image src='/1.png' className='-z-20 'layout='fill' alt='' /> */}
       </section> 
 
       
         <Woordle />
-        <section className='w-full h-[1185px] flex justify-center rounded-t-[100px] items-center   shadow-[0px 14px 24px 0px rgba(0, 0, 0, 0.06)]' >
+        <section className='  flex justify-center rounded-t-[100px] items-center   shadow-[0px 14px 24px 0px rgba(0, 0, 0, 0.06)]' >
           <Menu   />
           </section >
           <section className='flex flex-col justify-center items-center p-10 '>
