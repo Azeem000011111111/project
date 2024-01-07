@@ -35,14 +35,9 @@
                         <div key={rowIndex}>
                             {row.map((letter) => (
                                 <button
-                                    className='bg-[#FF6347] text-[#F8F8FF] text-[1.77988rem] text-center'
+                                    className='w-[57px] h-[57px] m-[2px] rounded-[4px] mt-[10px] bg-[#FF6347] text-[#F8F8FF] text-[1.77988rem] text-center'
                                     key={letter}
-                                    style={{
-                                        width: '57px',
-                                        height: '57px',
-                                        margin: '2px',
-                                        borderRadius: '4px',
-                                    }}
+                                  
                                 >
                                     {letter}
                                 </button>
@@ -53,13 +48,8 @@
 
                 <div className='flex justify-center'>
                     <button
-                        className='bg-[#FF6347] ml-6 text-[#F8F8FF] text-[1.77988rem] text-center'
-                        style={{
-                            width: '116px',
-                            height: '58px',
-                            margin: '2px',
-                            borderRadius: '4px',
-                        }}
+                        className='w-[57px] h-[57px] m-[2px] rounded-[4px] mt-[10px] bg-[#FF6347] ml-6 text-[#F8F8FF] text-[1.77988rem] text-center'
+                       
                     >
                         Enter
                     </button>
@@ -68,14 +58,9 @@
                         <div key={rowIndex}>
                             {row.map((letter) => (
                                 <button
-                                    className='bg-[#FF6347] text-[#F8F8FF] text-[1.77988rem] text-center'
+                                    className='w-[57px] h-[57px] m-[2px] rounded-[4px] mt-[10px] bg-[#FF6347] text-[#F8F8FF] text-[1.77988rem] text-center'
                                     key={letter}
-                                    style={{
-                                        width: '57px',
-                                        height: '57px',
-                                        margin: '2px',
-                                        borderRadius: '4px',
-                                    }}
+                                    
                                 >
                                     {letter}
                                 </button>
