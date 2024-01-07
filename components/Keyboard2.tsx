@@ -1,8 +1,7 @@
     import React from 'react';
 
     const Keyboard2 = () => {
-        const alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
+        
         const keyboardLayout = [
             ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
         ];
